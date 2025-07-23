@@ -1,0 +1,38 @@
+{
+  "name": "passion-for-impact-website",
+  "version": "1.0.0",
+  "description": "Professional website for Passion for Impact Foundation NGO",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --entry-file=index.html",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests configured'",
+    "validate": "html5validator --root . --also-check-css"
+  },
+  "keywords": [
+    "ngo",
+    "nonprofit",
+    "foundation",
+    "charity",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Passion for Impact Foundation",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html5validator": "^0.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passion-for-impact/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passion-for-impact/website/issues"
+  },
+  "homepage": "https://passion-for-impact.github.io/website/"
+}
